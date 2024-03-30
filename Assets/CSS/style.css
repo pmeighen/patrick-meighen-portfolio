@@ -11,7 +11,7 @@ body {
     justify-content: flex-start;
     }
 header {
-    background-color: cadetblue;
+    background-color: navy;
     font-family: sans-serif;
 }
 
@@ -27,7 +27,7 @@ header {
 .header-content p {
     font-size: 50px;
     margin-right: 600px;
-    color:blueviolet;
+    color:white;
     }
 .top-nav { 
     display: inline-block;
@@ -35,6 +35,7 @@ header {
     text-align: right;
     margin-right:20px;
     margin-bottom: 90px;
+    color: white;
 }
 .card {
     font-family: sans-serif;
