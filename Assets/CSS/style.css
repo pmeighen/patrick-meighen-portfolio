@@ -9,16 +9,67 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
+    }
+header {
+    background-color: cadetblue;
+    font-family: sans-serif;
 }
+
 .header-content {
     display: flex;
     align-items: center;
 }
 .header-content img {
     margin-right: 100px;
+    height: auto;
+    max-height: 200px;
 }
 .header-content p {
     font-size: 50px;
+    margin-right: 600px;
     color:blueviolet;
-    font-family: serif;
+    }
+.top-nav { 
+    display: inline-block;
+    font-size: 25px;
+    text-align: right;
+    margin-right:20px;
+    margin-bottom: 90px;
 }
+.card {
+    font-family: sans-serif;
+}
+
+.card-about-me {
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 800px;
+    margin-top: 110px;
+    margin-left: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+  }
+.card-my-work {
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 800px;
+    margin-left: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+  }
+  
+  .card-contact-me {
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 800px;
+    margin-left: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+  }
+  
+
+  
+
