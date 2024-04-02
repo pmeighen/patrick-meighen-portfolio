@@ -45,23 +45,24 @@ header {
 }
 .card {
     font-family: sans-serif;
-}
+    }
+/*Added standardized formatting for the 3 wrapper classes*/
 .wraper{
     display:flex;
     justify-content: space-evenly;
     font-family: sans-serif;
-}
+    }
 .wraper1{
     display:flex;
     justify-content: space-evenly;
     font-family: sans-serif;
-}
+    }
 .wraper2{
     display:flex;
     justify-content: space-evenly;
     font-family: sans-serif;
-}
-
+    }
+/* Added standardized formatting for the 3 card classes*/
 .card-about-me {
     border: 5px solid #ccc;
     border-radius: 8px;
@@ -88,7 +89,8 @@ header {
     border-radius: 8px;
     padding: 20px;
     width: 800px;
-    margin-left: 300px;
+/* Adjusted margin-left to 175px for symmetry */    
+    margin-left: 175px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: sans-serif;
   }
