@@ -11,8 +11,9 @@ body {
     justify-content: flex-start;
     }
 header {
-    background-color: navy;
+    /* background-color: navy; */
     font-family: sans-serif;
+    background-image: url("../images/image-1.jpg");
 }
 
 .header-content {
@@ -37,8 +38,18 @@ header {
     margin-bottom: 90px;
     color: white;
 }
+.top-nav a {
+    color:white;
+    text-decoration: none;
+    margin-right: 5px;
+}
 .card {
     font-family: sans-serif;
+}
+.wraper{
+    display:flex;
+    justify-content: space-evenly;
+
 }
 
 .card-about-me {
@@ -46,8 +57,8 @@ header {
     border-radius: 8px;
     padding: 20px;
     width: 800px;
-    margin-top: 110px;
-    margin-left: 300px;
+    /* modify or delete depending !margin-top: 110px;
+    margin-left: 300px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: sans-serif;
   }
